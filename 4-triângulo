@@ -1,0 +1,37 @@
+programa {
+	funcao inicio() {
+	
+    
+    real ladoa = 0.0
+    real ladob = 0.0
+    real ladoc = 0.0
+    
+    escreva("Diga o valor de um dos lados do triângulo: ")
+    leia(ladoa)
+    escreva("Diga o valor do outro lado do triângulo: ")
+    leia(ladob)
+    escreva("Diga o valor do outro lado do triângulo: ")
+    leia(ladoc)
+    
+    se (ladob + ladoa > ladoc e ladoc + ladoa > ladob e ladob + ladoc > ladoa){
+        escreva("Suas medidas são de um triângulo")}
+        senao {
+        escreva("Suas medidas não são de um triângulo ")
+        retorne 
+        }
+        
+    se(ladoa == ladob e ladob == ladoc){ 
+        escreva("\nSeu triângulo é  equilátero ")
+        
+    }
+        senao se (ladoa != ladob e ladob != ladoc e ladoa != ladoc){
+            escreva("\nSeu triângulo é escaleno")
+            
+        }
+            senao {
+                escreva("\nSeu triângulo é isósceles")
+        }
+    
+
+	}
+}
