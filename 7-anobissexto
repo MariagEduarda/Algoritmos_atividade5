@@ -1,0 +1,21 @@
+programa {
+	funcao inicio() {
+	
+    
+    inteiro Ano
+    
+    escreva("Me fale um Ano : \n")
+    leia(Ano)
+    
+    se(Ano <= 0){
+        Ano = 2020
+    }
+    se( Ano % 4 == 0){
+        escreva(Ano, " é bissexto")
+    }
+        senao{
+            escreva(Ano, " não é bissexto")
+        }
+    
+	}
+}
