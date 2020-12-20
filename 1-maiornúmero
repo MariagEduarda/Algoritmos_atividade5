@@ -1,0 +1,23 @@
+programa {
+	funcao inicio() {
+	
+		
+		real numeroum
+		real numerodois
+		
+		escreva("Me diga um número: ")
+		leia(numeroum)
+		
+		escreva("Agora me diga outro número ")
+		leia(numerodois)
+		
+		se( numeroum > numerodois ){
+	    escreva(numeroum, " é o maior ")}
+	    
+		    senao se ( numeroum < numerodois ){
+		    escreva(numerodois, " é o maior ")}
+		        
+		        
+		        
+	     }
+	}
