@@ -1,0 +1,28 @@
+programa {
+	funcao inicio() {
+		
+		
+        
+        caracter coriza, tosse, febre, dorDeGarganta
+        
+        escreva("Você está com coriza? (responda com s ou n) ")
+        leia (coriza)
+        limpa()
+        escreva("Você está com tosse? (responda com s ou n) ")
+        leia (tosse)
+        limpa()
+        escreva("Você está com febre? (responda com s ou n) ")
+        leia (febre)
+        limpa()
+        escreva("Você está com dor de garganta? (responda com s ou n) ")
+        leia (dorDeGarganta)
+        limpa()
+        
+        
+
+    
+         se (coriza == 's' e tosse == 's' e febre == 's' e dorDeGarganta == 's') {
+            escreva("Você está com Covid")
+	}
+}
+}
