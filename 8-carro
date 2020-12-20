@@ -1,0 +1,23 @@
+programa {
+	funcao inicio() {
+	    
+
+        
+        real velocidade = 0.0
+        real multa = 0.0
+    
+    
+    escreva("Você está andando a qual velocidade ? \n")
+    leia(velocidade)
+    
+     multa = (velocidade - 80) 
+     
+    se (velocidade <= 80) { 
+        escreva("Tá andando no limite de velocidade. ")
+    }
+     senao { 
+     escreva("\n Passou do limite vai ter que pagar uma multa de: R$", multa * 7.0, "\n")
+     }
+     
+	}
+}
